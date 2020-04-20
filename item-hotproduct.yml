@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: item-hotproduct
+server:
+  port: 8085
+
+livegoods:
+  fastdfs:
+    nginx: http://192.168.8.135:8888

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: comment-show
+server:
+  port: 8093
+
+livegoods:
+  fastdfs:
+    nginx: http://192.168.8.135:8888

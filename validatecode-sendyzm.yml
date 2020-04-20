@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: validatecode-sendyzm
+server:
+  port: 8096

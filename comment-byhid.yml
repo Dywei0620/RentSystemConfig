@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: comment-byhid
+  data:
+    mongodb:
+      authentication-database: admin
+      username: dywei
+      password: dywei
+      database: livegoods
+      port: 27017
+      host: 192.168.8.133
+server:
+  port: 8092

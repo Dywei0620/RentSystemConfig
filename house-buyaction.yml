@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: house-buyaction
+  data:
+    mongodb:
+      authentication-database: admin
+      username: dywei
+      password: dywei
+      database: livegoods
+      port: 27017
+      host: 192.168.8.133
+  rabbitmq:
+    host: 192.168.8.136
+    username: dywei
+    password: dywei
+  redis:
+    host: 192.168.8.132
+server:
+  port: 8099

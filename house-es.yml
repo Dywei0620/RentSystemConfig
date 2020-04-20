@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: house-es
+  data:
+    mongodb:
+      authentication-database: admin
+      username: dywei
+      password: dywei
+      database: livegoods
+      port: 27017
+      host: 192.168.8.133
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.8.134:9300
+server:
+  port: 8088

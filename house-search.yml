@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: house-search
+server:
+  port: 8089
+
+livegoods:
+  fastdfs:
+    nginx: http://192.168.8.135:8888
